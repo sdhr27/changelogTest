@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md && git commit -m'docs(CHANGELOG)'"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s --commit-path"
   },
   "dependencies": {
     "react": "^16.10.2"
