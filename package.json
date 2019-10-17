@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "get-changelog": "conventional-changelog -p angular --commit-path",
-    "create-changelog": "conventional-changelog -p angular -i CHANGELOG.md -s --commit-path"
+    "changelog": "conventional-changelog -p angular --commit-path"
   },
   "dependencies": {
     "react": "^16.10.2"
@@ -13,5 +12,6 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "version": null
 }
